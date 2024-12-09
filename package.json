@@ -1,0 +1,27 @@
+{
+  "name": "floppy-png",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Floppy PNG",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "deno run -A dist/tool.bundle.js",
+    "build": "./node_modules/rollup/dist/bin/rollup -c"
+  },
+  "author": "Scott H.",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "rollup": "^4.24.0",
+    "rollup-license-plugin": "^3.0.0"
+  },
+  "dependencies": {
+    "highlight.js": "^11.10.0",
+    "marked": "^15.0.3",
+    "marked-highlight": "^2.2.1",
+    "fpng": "github:acodrst/fpng",
+    "byte-base64": "^1.1.0"
+  }
+}
