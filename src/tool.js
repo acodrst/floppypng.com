@@ -1,6 +1,6 @@
 const emoji = "💾";
 const domain = "floppypng.com";
-const backup = "CL_FLP_BACKUP";
+const backup = Deno.env.get("CL_FLP_BACKUP");
 const dt = new Date();
 const tss = dt.toISOString().replaceAll(":", "").replaceAll("-", "").replaceAll(
   ".",

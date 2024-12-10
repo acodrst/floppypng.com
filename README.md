@@ -61,5 +61,9 @@ name: "RSA-PSS", hash: "SHA-256", saltLength: 32 }
 ```
 If the signature matches, it will return ***true***
 
+It is possible to create Floppy PNGs with minimal dependencies.  [NoNIC](https://github.com/acodrst/nonic) works:
+
+![](nonic.png)
+
 
 
