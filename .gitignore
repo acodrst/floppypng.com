@@ -3,3 +3,5 @@ sigs/**
 site.txt
 .*
 !.gitignore
+fflate.min.js
+fzstd.min.js
