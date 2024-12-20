@@ -98,7 +98,7 @@ if (last_hash.trim() != cur_hash.trim()) {
   const page_local = Deno.readTextFileSync("assets/pageops.local.html");
   Deno.writeFileSync(`${tss}-${a32h}.png`, fp_obj.im);
   Deno.writeTextFileSync(`${tss}-${a32h}.txt`, base64.bytesToBase64(u8sig));
-  Deno.writeFileSync(`${Deno.env.get(backup)}${tss}-${a32h}.png`, fp_obj.im);
+  Deno.writeFileSync(`${backup}${tss}-${a32h}.png`, fp_obj.im);
   for await (const i of Deno.readDir("./")) {
     if (
       i.name != `${tss}-${a32h}.png` &&
