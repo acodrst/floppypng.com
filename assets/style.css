@@ -66,6 +66,9 @@ html {
   cursor: pointer;
   font-size: 2rem;
 }
+#heading svg{
+  padding-top:5px;
+}
 @media (prefers-color-scheme: dark) {
   .hover_link {
     color: #8ab4f8;
