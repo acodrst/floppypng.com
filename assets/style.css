@@ -62,12 +62,14 @@ html {
   grid-row:2;
   grid-column:2;
   display: flex;
+  letter-spacing:.1rem;
+  align-content: center;
   justify-content: center;
   cursor: pointer;
   font-size: 2rem;
 }
 #heading svg{
-  padding-top:5px;
+  height:100%;
 }
 @media (prefers-color-scheme: dark) {
   .hover_link {
